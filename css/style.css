@@ -145,6 +145,10 @@ img {
     
 }
 
+.visually-hidden-title {
+    visibility: hidden;
+}
+
 
 .main-title {
     max-width: 496px;
@@ -184,7 +188,7 @@ img {
 }
 
 .second-section-main-title {
-    visibility: hidden;
+   visibility: visible;
 }
 
 .second-section-list {
