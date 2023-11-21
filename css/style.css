@@ -69,6 +69,7 @@ img {
     letter-spacing: 0.03em;
     color: #4D5AE5;
     margin-right: 76px;
+    padding: 24px 0;
 }
 
 .logo span {
@@ -182,6 +183,7 @@ img {
 
 .second-section-main-title {
     display: none;
+    visibility: hidden;
 }
 
 .second-section-list {
