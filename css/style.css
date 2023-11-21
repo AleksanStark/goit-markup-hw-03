@@ -145,9 +145,7 @@ img {
     
 }
 
-.visually-hidden-title {
-    visibility: hidden;
-}
+
 
 
 .main-title {
@@ -188,8 +186,13 @@ img {
 }
 
 .second-section-main-title {
-   visibility: visible;
+   visibility: hidden;
 }
+
+.second-section-main-title:focus {
+    visibility: visible;
+}
+
 
 .second-section-list {
     display: flex;
