@@ -96,7 +96,7 @@ main {
 }
 
 .header-item {
-    padding: 24px 0;
+    padding: 24px 0 24px
 }
 
 .address-list {
@@ -156,7 +156,7 @@ main {
 
 .main-btn {
     min-width: 169px;
-    height: 54px;
+    height: 56px;
     display: block;
     cursor: pointer;
     background-color: #4D5AE5 ;
@@ -181,7 +181,7 @@ main {
 }
 
 .second-section-main-title {
-    visibility: hidden  ;
+    display: none;
 }
 
 .second-section-list {
@@ -190,7 +190,7 @@ main {
 }
 
 .second-section-item {
-    flex-basis: calc((100% - 3 * 24) / 4);
+    flex-basis: calc((100% - 3 * 24px) / 4);
 }
 
 .second-section-title {
@@ -225,7 +225,7 @@ main {
 
 .third-section-item {
     text-align: center;
-    flex-basis: calc((100% - 3 * 24) / 4);
+    flex-basis: calc((100% - 3 * 24px) / 4);
     border-radius: 0px 0px 4px 4px; 
     
 }
@@ -285,7 +285,7 @@ main {
 
 .fourth-section-item {
     background-color: #FFFFFF;
-    flex-basis: calc((100% - 48) / 3);
+    flex-basis: calc((100% - 48px) / 3);
 }
 
 .fourth-section-title {
@@ -309,6 +309,7 @@ main {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color:#2E2F42;
+    margin-bottom: 8px;
     
 }
 
