@@ -96,7 +96,7 @@ img {
 }
 
 .header-item {
-    padding: 24px 0 24px
+    padding: 24px 0 24px;
 }
 
 .address-list {
@@ -279,8 +279,8 @@ img {
 }
 
 .fourth-section-container {
-    border-top: none;
     border: 1px solid #E7E9FC;
+    border-top: none;
     padding: 32px 16px;
 }
 
