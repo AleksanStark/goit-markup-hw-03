@@ -188,7 +188,7 @@ img {
     position: absolute;
     top: -9999px;
     left: -9999px;
-    display: block;
+    display: none;
     visibility: hidden;
   }
 
