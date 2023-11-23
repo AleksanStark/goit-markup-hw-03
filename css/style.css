@@ -186,12 +186,16 @@ img {
 }
 
 .second-section-main-title {
-   visibility: hidden;
+  
 }
 
-.second-section-main-title:focus {
-    visibility: visible;
-}
+.visually-hidden {
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+    display: block;
+    visibility: hidden;
+  }
 
 
 .second-section-list {
